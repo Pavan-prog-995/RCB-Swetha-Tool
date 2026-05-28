@@ -440,7 +440,7 @@ CLIENT 2 (Client 2 level) -  State Farm (Bloomington, Illinois)(Onsite)
     • Location:  Bloomington, Illinois
     
 
-CLIENT 3 (Client 3 level) - Northwood University (USA)(Onsite)
+CLIENT 3 (Client 3 level) - High Country Community Health (Boone, NC)(Remote)
     • Do not change the role, keep the original role
     • Write exactly 12 bullet points per role, each between 230-280 characters long
     • Use ONLY past tense verbs (completed project)
@@ -448,7 +448,7 @@ CLIENT 3 (Client 3 level) - Northwood University (USA)(Onsite)
     • My project is related to College — write the bullet points by integrating JD keywords with project Government regulations
     • Use varied action verbs appropriate to moderate responsibility level, avoiding repetition across bullets
     • Each verb MUST be unique - NO verb repetition across entire resume
-    • Location: Auburn Hills, MI
+    • Location: Boone, NC
     
 
 
@@ -561,7 +561,7 @@ Testing & Quality Assurance | Monitoring & Logging | Version Control & Collabora
 ## Professional Experience
 *Fulton Bank* | East Petersburg, PA| Aug 2025 to Present 
 *State Farm* | Bloomington, Illinois| Sep 2024 to June 2025
-*Northwood University * |  USA | Sep 2023 to Aug 2024
+*High Country Community Health* | Boone, NC | Sep 2023 to Aug 2024
 *ICICI Bank* | Bengaluru, Karnataka, India | January 2021 to March 2023
 
 by following the above instructions and rules, optimize the resume and return the ATS 100% optimized resume.
@@ -643,7 +643,7 @@ Output ONLY this Latex TEX format and STOP:
 \textbf{Environment:} [Technology stack from JD]
 
 \textbf{[Job Title]} \hfill \textit{Sep 2022– Feb 2023} \\
-\textit{Northwood University} \hfill \textit{Auburn Hills, MI (Onsite)}
+\textit{High Country Community Health} \hfill \textit{Boone, NC(Remote)}
 \begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
   \item [12 bullet points — 230-280 chars each, past tense only, \textbf{JD keywords highlighted}]
 \end{itemize}
@@ -658,7 +658,7 @@ Output ONLY this Latex TEX format and STOP:
 
 \section{Education}
 \textbf{Master's Degree in Business Analyst} \hfill \textit{AUG 2024} \\
-\textit{Northwood University} \hfill \textit{Florida}
+\textit{Northwood University} \hfill \textit{midalnd, MI}
 
 \section{Certifications}
 \begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
@@ -668,10 +668,22 @@ Output ONLY this Latex TEX format and STOP:
 
 \end{document}
 
-FORMATTING RULES:
-- Font: Times New Roman (\usepackage{mathptmx}) — black only, no colors.
-- Each bullet point must include one \textbf{highlighted JD keyword}.
-- Do NOT highlight random words — ONLY highlight actual JD keywords.
+HEADING COLOR RULE:
+- Blue color RGB(0,51,102) on ONLY these 5 headings:
+  PROFESSIONAL SUMMARY, TECHNICAL SKILLS, PROFESSIONAL EXPERIENCE,
+  EDUCATION, CERTIFICATIONS
+- Use: \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+- Everything else = BLACK only. No exceptions.
+
+KEYWORD HIGHLIGHTING RULE:
+- Every bullet MUST have exactly ONE \textbf{} — no more, no less
+- ONLY highlight words taken directly from the JD
+  (tools, protocols, platforms, domain terms, certifications)
+- NEVER highlight: verbs, generic words, or anything not in the JD
+- WRONG: \textbf{Deployed} or \textbf{system} or \textbf{project}
+- CORRECT: \textbf{OSPF} or \textbf{SD-WAN} or \textbf{Python}
+- Zero or two \textbf{} in one bullet = VIOLATION
+
 
 JOB DESCRIPTION:
 `
